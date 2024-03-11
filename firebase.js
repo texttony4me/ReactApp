@@ -1,14 +1,13 @@
-
-import firebase from "firebase/app";
-import "firebase/database";
+import firebase from "firebase/compat/app";
+import "firebase/compat/database";
 
 const firebaseConfig = {
-    apiKey: "AIzaSyCxeJkd4C4fmWbyag-Mzb2AOFj0G8jCmbI",
-    authDomain: "fir-react-c8312.firebaseapp.com",
-    projectId: "fir-react-c8312",
-    storageBucket: "fir-react-c8312.appspot.com",
-    messagingSenderId: "765141086238",
-    appId: "1:765141086238:web:9f657f44bc7c9f9e0cbe0f"
+  apiKey: "AIzaSyAWg0U5r9HFa2dXsNfhYW4pimRueXDLgXs",
+  authDomain: "advancedtopics-7d2f5.firebaseapp.com",
+  projectId: "advancedtopics-7d2f5",
+  storageBucket: "advancedtopics-7d2f5.appspot.com",
+  messagingSenderId: "883867001043",
+  appId: "1:883867001043:web:1b7540669b098ef5007426"
   };
 
   firebase.initializeApp(firebaseConfig);
